@@ -1,0 +1,91 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+  
+}
+
+
+
+
+
+.Registro {
+
+  width: 800px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 2px;
+  font-family:  ' calibri ';
+  color: black;
+  box-shadow: 7px 13px 37px #000;
+  background-color: #ECF0F1;
+  font-size: 14px;
+  
+  
+  }
+
+  
+  .controls  {
+      width: 70%;
+      padding: 10px;
+     border-radius: 4px;
+     margin-bottom: 18px;
+     border: 1px solid #1f53c5;
+     font-family: ' Calibri ';
+     align-items: center 
+   
+    
+    }
+    .Registrar {
+   
+      color: black;
+      padding: 15px;
+      margin: auto;
+      text-decoration: none;
+    }
+    .simple {
+   
+      color: black;
+      padding: 15px;
+     margin: auto;
+     text-decoration: none;
+    
+    }
+   
+    
+    .botons h1 {
+   
+      color: black;
+      padding: 15px;
+    margin: auto;
+    
+    }
+    .botons h2 {
+   
+      color: black;
+      padding: 15px;
+    margin: auto;
+    
+    }
+
+    
+ 
+  
+    .botons {
+    width: 70%;
+     background-color: #1f53c5;
+     border: none;
+     padding: 10px;
+     color: white;
+     font-size: 16px;
+     position: relative;
+     display: block;
+     border-radius: 6px;
+     text-align: center;
+     overflow: hidden;
+     cursor: pointer;
+     text-decoration: none;
+   
+    }
+   

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand" href="/">Links favoritos</a>
+    <a class="navbar-brand" href="/">ISETA MESAS DE EXAMEN</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -8,16 +8,22 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         {{#if user}}
-        <li class="nav-item dropdown">
+        {{!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-expanded="false">
-            Links
+            Mesas de examen
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/links">Links</a>
+            <a class="dropdown-item" href="/links">Inscribirse a mesas</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="/links/add">Agregar un enlace</a>
+            <a class="dropdown-item" href="/links/add">Bajarse a mesas</a>
           </div>
+        </li> --}}
+        <li class="nav-item">
+          <a href="/links" class="nav-link">Inscribirse a mesas</a>
+        </li>
+        <li class="nav-item">
+          <a href="/links/add" class="nav-link">Bajarse a mesas</a>
         </li>
         <li class="nav-item">
           <a href="/profile" class="nav-link">Perfil</a>
